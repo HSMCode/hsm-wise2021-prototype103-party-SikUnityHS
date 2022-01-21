@@ -17,7 +17,7 @@ public class PinataSpawner : MonoBehaviour
     {
 
         GameObject targetClone = Instantiate(Pinata) as GameObject;
-        targetClone.transform.position = new Vector3(-6, 4, -84);
+        targetClone.transform.position = new Vector3(-8, 4, -84);
 
 
         isAlive = false;
@@ -27,7 +27,7 @@ public class PinataSpawner : MonoBehaviour
     {
         while (true)
         {
-           yield return new WaitForSeconds(3);
+           yield return new WaitForSeconds(2);
 
            if (isAlive == true)
            {

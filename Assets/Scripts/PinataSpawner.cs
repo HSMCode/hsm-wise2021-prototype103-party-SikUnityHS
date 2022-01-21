@@ -27,7 +27,7 @@ public class PinataSpawner : MonoBehaviour
     {
         while (true)
         {
-           yield return new WaitForSeconds(2);
+           yield return new WaitForSeconds(4);
 
            if (isAlive == true)
            {

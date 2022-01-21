@@ -1029,6 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd1d08a2cd80a8d48aab01c582fd05ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathParticles: {fileID: 6080423090598284901, guid: 02b6a95cb79d1e54d9b0cc5ab6ccfdb8, type: 3}
   spawnScript: {fileID: 0}
   scoreScript: {fileID: 0}
 --- !u!1 &7942700981979680715

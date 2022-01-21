@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PinataScript : MonoBehaviour
 {
-
     public PinataSpawner spawnScript;
     public ScoreScript scoreScript;
     //public SoundEffectsScript soundEffectsScript;
@@ -12,10 +11,10 @@ public class PinataScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        destroyPassenger(collision);
+        destroyPinata(collision);
     }
 
-    public void destroyPassenger(Collision collision)
+    public void destroyPinata(Collision collision)
     {
         spawnScript = GameObject.FindGameObjectWithTag("Spawner").GetComponent<PinataSpawner>();
         spawnScript.setAlive();

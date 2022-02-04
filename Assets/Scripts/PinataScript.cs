@@ -5,8 +5,8 @@ using UnityEngine;
 public class PinataScript : MonoBehaviour
 {
     public PinataSpawner spawnScript;
-    public ScoreScript scoreScript;
-    //public SoundEffectsScript soundEffectsScript;
+    
+
 
 
     void OnCollisionEnter(Collision collision)

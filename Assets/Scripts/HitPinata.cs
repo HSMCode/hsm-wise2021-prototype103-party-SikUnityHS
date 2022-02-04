@@ -19,16 +19,19 @@ public class HitPinata : MonoBehaviour
       {
         Destroy();
         BatHit.Play ();
+        
   
       }
     }
 
    public void Destroy()
    {
+    
      Instantiate(deathParticles, new Vector3 (9.5f, -11f, -11.5f),transform.rotation * Quaternion.Euler (0,180,0) );
      Pinata = GameObject.FindGameObjectWithTag ("Pinata");
      DestroyObject (Pinata);
     
    }
+
 
 }
